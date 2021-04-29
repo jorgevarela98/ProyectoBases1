@@ -5,4 +5,4 @@ Create table Sucursal (
     telefono varchar(20),
     id_gerente int, 
     foreign key(id_gerente) references Gerente(id_gerente)
-)
+);

@@ -2,6 +2,6 @@ Create table Inventario (
 	id_inventario int primary key,
     fecha_registro date,
     cantidad int,
-    id_producto int, 
-    foreign key(id_producto) references Producto(id_producto)
-)
+    id_Producto_Proveedor int, 
+    foreign key(id_producto_proveedor) references Producto_Proveedor(id_producto_proveedor)
+);
